@@ -1,4 +1,4 @@
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -55,8 +55,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <p className={styles.sectionSubText}> Collaborate with us </p>
+        <h2 className={styles.sectionHeadText}>Features</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -65,10 +65,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           {" "}
-          The following projects showcase my problem solving ability, project
-          management skills and experience both working individually and as a
-          team. They are real-world examples of my work with brief descriptions,
-          links to the code repositories and the live demos.{" "}
+          Wanna collaborate on a project check out some of the ways you can collaborate with us.{" "}
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

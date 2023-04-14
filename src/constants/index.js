@@ -27,6 +27,10 @@ import {
   
   export const navLinks = [
     {
+      id: "order",
+      title: "Order",
+    },
+    {
       id: "about",
       title: "About",
     },
@@ -42,19 +46,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "SIGN UP",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "CONTACT US",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "FAQ",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "LOG IN",
       icon: creator,
     },
   ];
@@ -116,55 +120,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "product",
+      company_name: "company",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "slogan",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "product overview.",
+        "Collaborating with",
+        "lorem ",
+        "reviews.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "product",
+      company_name: "company",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "slogan",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "product overview.",
+        "Collaborating with",
+        "lorem ",
+        "reviews.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "product",
+      company_name: "company",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "slogan",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "product overview.",
+        "Collaborating with",
+        "lorem ",
+        "reviews.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "YOUR PRODUCT NAME",
+      company_name: "Company",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Slogan",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "product overview.",
+        "Collaborating with",
+        "lorem ",
+        "reviews.",
       ],
     },
   ];
@@ -172,46 +176,46 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I thought it was impossible to make something as beautiful as mom's cooking. This experience proved me wrong.",
+      name: "Sara",
+      designation: "",
+      company: "Nairobi",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I order smochas all day just can't get enough.",
+      name: "Chris",
+      designation: "",
+      company: "Mombasa",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Great experience ordering smochas. We can't thank them enough!",
+      name: "Lisa",
+      designation: "",
+      company: "Kisumu",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SIGN UP AS DELIVERY PERSONNEL",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Help us get delicious and nutritious smochas to comrades in need. Providing a convenient and efficient solution for logistics and transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "large scale logistics",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "retail customer delivery",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "transportation",
           color: "pink-text-gradient",
         },
       ],
@@ -219,20 +223,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "DEVELOPER",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Get API key to help improve the application.Contact us for job openings.",
       tags: [
         {
-          name: "react",
+          name: "Enterprise",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Personal",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Work",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +244,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Social responsibility",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Making a difference in our communities through sustainable solutions. Get in touch to be a part of the experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "Events",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Projects",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Blog",
           color: "pink-text-gradient",
         },
       ],

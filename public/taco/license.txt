@@ -1,0 +1,11 @@
+Model Information:
+* title:	Taco
+* source:	https://sketchfab.com/3d-models/taco-5b8095131eca4914b6dce4e96b290a3f
+* author:	John Redden (https://sketchfab.com/jtredden)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Taco" (https://sketchfab.com/3d-models/taco-5b8095131eca4914b6dce4e96b290a3f) by John Redden (https://sketchfab.com/jtredden) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

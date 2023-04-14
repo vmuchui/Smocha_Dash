@@ -1,4 +1,4 @@
-import logo from "./logo-color.svg";
+import logo from "./sdalogo_2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";

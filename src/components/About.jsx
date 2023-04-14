@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -10,32 +10,41 @@ import { SectionWrapper } from "../hoc";
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
-      <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
-        <div options={{max:45, scale: 1, speed: 450}} className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-          <h3 className="text-white text-[20px] font-bold text-center"> {title}</h3>
+      <motion.div
+        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      >
+        <div
+          options={{ max: 45, scale: 1, speed: 450 }}
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        >
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {" "}
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
-    );
+  );
 };
 
 const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}> Introduction</p>
-        <h2 className={styles.sectionHeadText}> Overview</h2>
+        <p className={styles.sectionSubText}> WHO ARE WE</p>
+        <h2 className={styles.sectionHeadText}> About Us</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Javascript, Java,
-        Python and Typescript. I also have expertise in frameworks such as
-        Angular, React, Three.js, Spark, Django and Node.js. I enjoy working in
-        teams to help solve problems and create efficient software that is
-        scalable and efficient.
+        Smocha Dash is a service that enables users to order a smocha from the
+        comfort of their home and have it delivered in the shortest time
+        possible.
+        We intend to bring about sustainability by promoting food security. 
+        Join us and help make a difference.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
@@ -46,4 +55,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
